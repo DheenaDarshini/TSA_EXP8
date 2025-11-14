@@ -18,7 +18,8 @@ the dataset
 10. Show the plot
 11. Also perform exponential smoothing and plot the graph
 ### PROGRAM:
-'''
+
+```python
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -68,7 +69,7 @@ plt.title('Forecasting on Close Price (Scaled)')
 plt.show()
 
 print("RMSE (on Scaled Data):", np.sqrt(mean_squared_error(test_data, test_predictions)))
-'''
+```
 
 ### OUTPUT:
 
